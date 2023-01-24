@@ -1,0 +1,23 @@
+Lec 6
+1. Use manifest constant to declare the size of the array.
+like: #define MAX 100
+
+Lec 7
+1. if void*a is to be typecasted to int the *(int*)a is the correct syntax.
+2. sorting in C uses qsort in which size of(data type), compare function using 
+using void pointers in needed to be defined explicitly.
+## STL
+3. maps are not contigous memory location.
+so we cannot do do iter+1 as it will movet the another memory location which may not exist.
+so we do iter++ which move to the next available memory location available in the maps.
+
+4. in c++ every container is called a data structure.
+
+# pointer to constant data
+{
+const int n=5;
+const int *p= &n;
+}
+# constant pointer to data
+our genral pointer in which the pointer is restricted to point to a single variable.
+

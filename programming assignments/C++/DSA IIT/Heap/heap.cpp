@@ -1,0 +1,1 @@
+/* Binary heap is a complete binary tree ie only last level can be partially filled and all other levels must be completely filled*/

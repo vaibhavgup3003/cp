@@ -1,0 +1,6 @@
+#Things to Remember
+1. if we have to eliminate the same values the remmeber to take "XOR".
+   >> a^a=0 ; a^0 = a;
+2. to count no. of distinct entries in a array just "CFRTEST"(codechef).
+3. Time complexity of max() function is O(1).
+4. In array of strings characters are accessed as in 2d matrix.

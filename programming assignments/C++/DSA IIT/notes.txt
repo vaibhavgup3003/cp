@@ -1,0 +1,24 @@
+1. (void*)&var is typecasting in pointers. This can typecast to any pointer.
+2. if *ptr is a pointer to a variable 'a' then,
+   a. ptr = &a
+   b. ptr = a (preferred)
+3.  array is a constant pointer. name of the array points to the location of the first element stored in it.
+# traversing through a matrix in spiral order:
+-- spiral.cpp
+###### DECLARATION OF POINTERS
+4. *ptr = &arr[0] and ptr = arr[0]  both of these do the same thing that is pointing the first location of the array.
+* directly incrementing the array name doesn't make sense.
+### valid operation on pointer
+// assignment between pointers of same type.
+// addition subtraction between pointer and integer.
+// comparision, addition, subtraction between pointer pointing to elements of same array.
+// assignment or comparision with null.
+ex. let p and q are two pointer the p>q , q>p, p==q all are valid.
+
+# Linked List
+1. no requirements of contigous memory locations
+2. no pre allocation of space
+3. delete or insert the element from any position
+4. 
+
+

@@ -1,0 +1,23 @@
+body{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/800px-Image_created_with_a_mobile_phone.png)
+}
+h1{
+    margin: 25;
+    border: 20;
+    padding: 50;
+}
+
+.top-container{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+.bottom-container{
+    background-color: rgb(255, 0, 157);
+    width: 200;
+    height: 200;
+}
+img{
+    top: 20px;
+    
+} 

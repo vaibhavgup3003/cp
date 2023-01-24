@@ -1,0 +1,1 @@
+{"name":"Local: cp2","url":"/home/vaibhav/Documents/Programming/TRY/cp2.cpp","tests":[{"id":1673348031732,"input":"5\n1 1 1 1 2 2 3 2 2 1 1 1\n","output":""},{"id":1673447241049,"input":"0\n0 0 0 0 0 0 0 1 1 2 3 0","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/vaibhav/Documents/Programming/TRY/cp2.cpp","group":"local","local":true}
