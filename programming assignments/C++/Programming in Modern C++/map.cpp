@@ -37,3 +37,23 @@ unordered_map < int, string> g;
 // all other operation in map are applicable in unordered map but time complexity of unordered map is O(1). so if order is not important then use unordered map. 
 }
 
+ bool cmp(pair<int , int> p1, pair < int, int > p2){
+      if(p1.second == p2.second)
+      return p1.first>p2.first;
+      return p1.second>p2.second;
+  }
+    vector<int> topK(vector<int>& nums, int k) {
+        unordered_map<int, int> m;
+        for(int i=0; i<nums.size(); i++ ){
+            m[i]++;
+        }
+        vector < int , int > fa ( m.begin(), m.end());
+        sort(v.begin(),v.end(),cmp);
+        // sort(m.begin(), m.end(), cmp);
+        vector<int>ans;
+        for(int i=0; i<k; i++){
+            ans.push_back(fa[i].first);
+        }
+        return ans;
+    }
+        

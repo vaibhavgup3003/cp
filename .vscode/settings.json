@@ -6,6 +6,8 @@
         "iostream": "cpp",
         "cmath": "cpp",
         "ostream": "cpp",
-        "new": "cpp"
+        "new": "cpp",
+        "numeric": "cpp",
+        "chrono": "cpp"
     }
 }

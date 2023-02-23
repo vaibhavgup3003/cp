@@ -42,6 +42,9 @@ main(){
     // cout << odd_times(a,11) << endl;
     // cout << occurence(a,8) <<endl;
     power_set(s);
+    int n;cin >> n;
+       string a,b; cin >>a>>b;
+       cout << ((bitset<100>(a) & bitset<100>(b)).count() ? "NO\n" : "YES\n");
 }
 // find the element which is occuring odd number of times.
 // find the missing no if every no occurs exactly once in a array

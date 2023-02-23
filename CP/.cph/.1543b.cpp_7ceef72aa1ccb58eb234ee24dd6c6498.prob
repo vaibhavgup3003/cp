@@ -1,0 +1,1 @@
+{"name":"Local: 1543b","url":"/home/vaibhav/Documents/Programming/CP/1543b.cpp","tests":[{"id":1675597667269,"input":"3\n3\n1 2 3\n4\n0 1 1 0\n10\n8 3 6 11 5 2 1 7 10 4\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/vaibhav/Documents/Programming/CP/1543b.cpp","group":"local","local":true}

@@ -77,75 +77,75 @@ int main(){
 
 
     /* CALCULATION OF PRODUCT */
-	// for (int i = 0; i < n1; i++) {
-    //     cntp++;
-	// 	for (int j = 0; j < m2; j++) {
-    //         cntp++;
-	// 		pro[i][j] = 0;
-    //         cntp++;
+	for (int i = 0; i < n1; i++) {
+        cntp++;
+		for (int j = 0; j < m2; j++) {
+            cntp++;
+			pro[i][j] = 0;
+            cntp++;
 
-	// 		for (int k = 0; k < m2; k++) {
-    //             cntp++;
-	// 			pro[i][j] += mat1[i][k] * mat2[k][j];
-    //             cntp++;
-	// 		}		
-    //         cntp++;	
-	// 	}
-    //     cntp++;
-	// }
-    // cntp++;
+			for (int k = 0; k < m2; k++) {
+                cntp++;
+				pro[i][j] += mat1[i][k] * mat2[k][j];
+                cntp++;
+			}		
+            cntp++;	
+		}
+        cntp++;
+	}
+    cntp++;
 
-    // cout << endl;
-    // cout << endl;
-    // cout << cntp << endl;
-    // cout << endl;
-    // cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << cntp << endl;
+    cout << endl;
+    cout << endl;
 
     /* PRINT MULTIPLICATION */  
-    // for (int i = 0; i < n1; i++)
-    // {
-    //     for (int j = 0; j < m2; j++)
-    //     {
-    //         cout << pro[i][j] << " ";
-    //     }
-    //     cout << endl;    
-    // }
+    for (int i = 0; i < n1; i++)
+    {
+        for (int j = 0; j < m2; j++)
+        {
+            cout << pro[i][j] << " ";
+        }
+        cout << endl;    
+    }
     
 
 
     /* CALCULATION OF TRANSPOSE OF MATRIX*/
 
-    // for (int i = 0; i < n1; i++)
-    // {
-    //     cntt++;
-    //     for (int j = 0; j < m1; j++)
-    //     {
-    //         cntt++;
-    //         tr[j][i] = mat1[i][j];
-    //         cntt++;
-    //     }
-    //     cntt++;
-    // }
-    // cntt++;
+    for (int i = 0; i < n1; i++)
+    {
+        cntt++;
+        for (int j = 0; j < m1; j++)
+        {
+            cntt++;
+            tr[j][i] = mat1[i][j];
+            cntt++;
+        }
+        cntt++;
+    }
+    cntt++;
     
     /* PRINT TRANSPOSE OF MATRIX */
-    // for (int i = 0; i < m1; i++)
-    // {
-    //     for (int j = 0; j < n1; j++)
-    //     {
-    //         cout << tr[i][j] << " ";
-    //     }
-    //     cout << endl;
-    // }
+    for (int i = 0; i < m1; i++)
+    {
+        for (int j = 0; j < n1; j++)
+        {
+            cout << tr[i][j] << " ";
+        }
+        cout << endl;
+    }
 
-    // cout << endl;
-    // cout << endl;
-    // cout << cntt << endl;
-    // cout << endl;
-    // cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << cntt << endl;
+    cout << endl;
+    cout << endl;
 
 
     
-    // return 0;
+    return 0;
 }
 
