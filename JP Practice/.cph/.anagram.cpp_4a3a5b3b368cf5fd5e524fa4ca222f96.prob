@@ -1,0 +1,1 @@
+{"name":"Local: anagram","url":"/home/vaibhav/Documents/Programming/JP Practice/anagram.cpp","tests":[{"id":1680945756092,"input":"4\n10\n9\n11\n7","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/vaibhav/Documents/Programming/JP Practice/anagram.cpp","group":"local","local":true}

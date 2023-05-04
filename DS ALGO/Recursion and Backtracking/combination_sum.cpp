@@ -2,7 +2,7 @@
 using namespace std;
 class Solution {
 public:
-    void solve(int ind, vector<int>ans, vector<vector<int>> res, vector<int> v, int target){
+        void solve(int ind, vector<int>&ans, vector<vector<int>> &res, vector<int> &v, int target){
         
         if(ind == v.size()){
             if(target == 0){
@@ -12,13 +12,13 @@ public:
         }
         if(v[ind]<=target){
             ans.push_back(v[ind]);
-            // target -= v[ind];          // do this here and do this in function are very different
+            // target -= v[ind];
         
-        solve(ind+1, ans,res, v, target-v[ind]);                      // target is decreased inside the function
-        ans.pop_back();                                   // this is inside the if condition
+        solve(ind, ans,res, v, target-v[ind]);
+        ans.pop_back();
         }
         // target += v[ind];
-        solve(ind+1,ans, res, v,target);                     
+        solve(ind+1,ans, res, v,target);
         
     }
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {

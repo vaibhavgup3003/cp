@@ -57,3 +57,9 @@ unordered_map < int, string> g;
         return ans;
     }
         
+// m.erase(val); //Erases the pair from the map where the key_type is val.
+
+// map<string,int>::iterator itr=m.find(val); //Gives the iterator to the element val if it is found otherwise returns m.end() .
+// Ex: map<string,int>::iterator itr=m.find("Maps"); //If Maps is not present as the key value then itr==m.end().
+
+// To get the value stored of the key "MAPS" we can do m["MAPS"] or we can get the iterator using the find function and then by itr->second we can access the value.
